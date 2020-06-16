@@ -491,7 +491,7 @@ int main(int argc, char **argv)
     }
 
 
-    parse_params(argc - ret, argv + ret);
+    parse_params(argc - ret, argv + ret);//解析输入参数
 
     rte_timer_subsystem_init();
 
